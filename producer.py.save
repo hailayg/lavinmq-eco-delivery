@@ -1,0 +1,6 @@
+import pika
+import json
+import uuid
+
+con = pika.BlockingConnection(pika.ConnectionParameters(34.88.223.172))
+ch
