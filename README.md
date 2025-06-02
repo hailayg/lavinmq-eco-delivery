@@ -22,3 +22,7 @@ Simulates a dispatcher assigning eco-friendly delivery tasks (e.g. bike courier 
 
 ```bash
 docker run -d --name lavinmq -p 5672:5672 -p 15672:15672 cloudamqp/lavinmq
+Concept:
+Build a lightweight task queue system that simulates eco-deliveries (e.g., bike couriers delivering packages in a green city). Use LavinMQ to queue tasks like “deliver package from A to B” and simulate workers consuming those tasks.
+
+This aligns with sustainability, mobility, and messaging systems – all good hackathon themes.
